@@ -2,10 +2,8 @@ from ast import operator
 from optparse import AmbiguousOptionError
 
 import operator
-from pickle import NEWOBJ
-from sre_constants import JUMP
-from tkinter import N
-from typing_extensions import dataclass_transform
+
+
 diccionario= dict(
     Enero=30, 
     Febrero=23,
@@ -33,5 +31,13 @@ sum=0
 for val in a:
     sum+=val
 print("promedio", sum/b)
+
+for key in diccionario.keys():
+    if (diccionario[key]>=val):
+        print("el mes",key,"es mayor que el promedio")
+    
+    elif (diccionario[key]<=val):
+        print(f"el mes:{key}, es menor que el promedio")
+
 
 
