@@ -1,0 +1,6 @@
+({
+    articulo: "portatil",
+    precio: 2452352,
+    marca: "hp",
+    capacidad: "256gb"
+})
